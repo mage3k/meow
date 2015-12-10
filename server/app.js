@@ -61,7 +61,7 @@ app.use(function(req, res, next) {
 })
 
 
-app.use(express.static(path.join(__dirname, '../client/assets')))
+app.use(express.static(path.join(__dirname, '../static/assets')))
 // Static assets
 app.use('/shared', express.static(path.join(__dirname, '../shared')))
 app.use('/vendors', express.static(path.join(__dirname, '../bower_components')))
